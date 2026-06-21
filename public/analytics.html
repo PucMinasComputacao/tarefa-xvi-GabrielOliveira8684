@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics - TrilhaVerde</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./assets/js/login.js"></script>
+</head>
+<body>
+  <header>
+    <h1>TrilhaVerde</h1>
+    <p>Equipamentos para suas aventuras outdoor</p>
+    <div id="login-area" class="login-area"></div>
+  </header>
+
+  <main>
+    <section class="container">
+      <a href="index.html" class="btn-voltar">← Voltar</a>
+      <h2>Análise de Produtos</h2>
+
+      <div class="charts-container">
+        <div class="chart-wrapper">
+          <h3>Quantidade de Produtos por Categoria</h3>
+          <canvas id="chartPizza"></canvas>
+        </div>
+
+        <div class="chart-wrapper">
+          <h3>Preço Médio por Categoria</h3>
+          <canvas id="chartBarras"></canvas>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="analytics.js"></script>
+</body>
+</html>

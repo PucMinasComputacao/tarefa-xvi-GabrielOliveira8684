@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - TrilhaVerde</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <script src="../../assets/js/login.js"></script>
+</head>
+<body>
+  <header>
+    <h1>TrilhaVerde</h1>
+    <p>Equipamentos para suas aventuras outdoor</p>
+  </header>
+
+  <main>
+    <section class="container">
+      <div class="login-container">
+        <h2>Entrar</h2>
+        <form id="form-login">
+          <input type="text" id="login" placeholder="Usuário" required>
+          <input type="password" id="senha" placeholder="Senha" required>
+          <button type="submit">Entrar</button>
+        </form>
+        <p id="erro-login" class="erro" style="display: none;">Usuário ou senha inválidos</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('form-login').addEventListener('submit', e => {
+      e.preventDefault();
+      const login = document.getElementById('login').value;
+      const senha = document.getElementById('senha').value;
+      const sucesso = loginUser(login, senha);
+      if (!sucesso) {
+        document.getElementById('erro-login').style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

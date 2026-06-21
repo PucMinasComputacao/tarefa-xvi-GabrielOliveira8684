@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Produto - TrilhaVerde</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="./assets/js/login.js"></script>
+</head>
+<body>
+  <header>
+    <h1>TrilhaVerde</h1>
+    <p>Equipamentos para suas aventuras outdoor</p>
+    <div id="login-area" class="login-area"></div>
+  </header>
+
+  <main>
+    <section class="container">
+      <a href="index.html" class="btn-voltar">← Voltar</a>
+      <div class="login-container">
+        <h2 id="titulo-pagina">Novo Produto</h2>
+        <form id="form-produto">
+          <input type="text" id="titulo" placeholder="Título" required>
+          <input type="text" id="categoria" placeholder="Categoria" required>
+          <input type="number" id="preco" step="0.01" placeholder="Preço" required>
+          <input type="text" id="imagem" placeholder="URL da imagem" required>
+          <input type="text" id="descricaoCurta" placeholder="Descrição curta" required>
+          <textarea id="descricaoCompleta" placeholder="Descrição completa" required></textarea>
+          <input type="text" id="tags" placeholder="Tags (separadas por vírgula)">
+          <button type="submit">Salvar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="cadastro.js"></script>
+</body>
+</html>

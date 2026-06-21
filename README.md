@@ -25,14 +25,14 @@ Controle de versionamento avançado com Git (commits organizados e tags).
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Gabriel Oliveria Gonzaga Araújo
+- Matricula: 915738
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >> ![alt text](<images/Captura de tela 2026-06-20 230155.png>)
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >> ![alt text](<images/Captura de tela 2026-06-20 230215.png>)
 
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >> ![alt text](<images/Captura de tela 2026-06-20 230412.png>)
 

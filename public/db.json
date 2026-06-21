@@ -1,0 +1,42 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Barraca de Camping 4 Pessoas",
+      "categoria": "Acampamento",
+      "preco": 459.90,
+      "imagem": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4",
+      "descricaoCurta": "Barraca espaçosa e resistente para trilhas longas",
+      "descricaoCompleta": "Barraca impermeável com capacidade para 4 pessoas, armação em fibra de vidro e fácil montagem. Ideal para acampamentos em trilhas e camping selvagem.",
+      "tags": ["camping", "barraca", "outdoor"]
+    },
+    {
+      "id": 2,
+      "titulo": "Mochila Cargueira 60L",
+      "categoria": "Mochilas",
+      "preco": 389.00,
+      "imagem": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "descricaoCurta": "Mochila grande para expedições de vários dias",
+      "descricaoCompleta": "Mochila cargueira com 60 litros de capacidade, sistema de costas ajustável e compartimentos múltiplos. Perfeita para trilhas longas e expedições.",
+      "tags": ["mochila", "trilha", "expedicao"]
+    },
+    {
+      "id": 3,
+      "titulo": "Lanterna de Cabeça LED",
+      "categoria": "Iluminação",
+      "preco": 79.90,
+      "imagem": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205",
+      "descricaoCurta": "Lanterna recarregável com alto alcance",
+      "descricaoCompleta": "Lanterna de cabeça com LED de alta potência, bateria recarregável via USB e três modos de iluminação. Essencial para trilhas noturnas.",
+      "tags": ["lanterna", "led", "noturno"]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Gabriel",
+      "login": "gabriel",
+      "senha": "123456"
+    }
+  ]
+}
